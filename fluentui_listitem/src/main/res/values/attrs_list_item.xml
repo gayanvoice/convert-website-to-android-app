@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) Microsoft Corporation. All rights reserved.
+  ~ Licensed under the MIT License.
+  -->
+
+<resources>
+    <declare-styleable name="ListItemView">
+        <attr name="fluentui_title"/>
+        <attr name="fluentui_subtitle"/>
+        <attr name="fluentui_footer"/>
+        <attr name="fluentui_titleMaxLines"/>
+        <attr name="fluentui_subtitleMaxLines"/>
+        <attr name="fluentui_footerMaxLines"/>
+        <attr name="fluentui_titleTruncateAt" format="enum">
+            <enum name="start" value="0" />
+            <enum name="middle" value="1" />
+            <enum name="end" value="2" />
+            <enum name="marquee" value="3" />
+        </attr>
+        <attr name="fluentui_subtitleTruncateAt" format="enum">
+            <enum name="start" value="0" />
+            <enum name="middle" value="1" />
+            <enum name="end" value="2" />
+            <enum name="marquee" value="3" />
+        </attr>
+        <attr name="fluentui_footerTruncateAt" format="enum">
+            <enum name="start" value="0" />
+            <enum name="middle" value="1" />
+            <enum name="end" value="2" />
+            <enum name="marquee" value="3" />
+        </attr>
+        <attr name="fluentui_layoutDensity" format="enum">
+            <enum name="regular" value="0" />
+            <enum name="dense" value="1" />
+        </attr>
+        <attr name="fluentui_customViewSize" format="enum">
+            <enum name="small" value="0" />
+            <enum name="medium" value="1" />
+            <enum name="large" value="2" />
+        </attr>
+        <attr name="fluentui_disabled" format="boolean"/>
+    </declare-styleable>
+</resources>

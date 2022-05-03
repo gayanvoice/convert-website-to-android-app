@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) Microsoft Corporation. All rights reserved.
+  ~ Licensed under the MIT License.
+  -->
+
+<resources>
+    <declare-styleable name="PeoplePickerView">
+        <attr name="fluentui_label"/>
+        <attr name="fluentui_valueHint"/>
+        <attr name="fluentui_showHint"/>
+        <attr name="fluentui_characterThreshold"/>
+        <attr name="fluentui_personaChipClickStyle"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) Microsoft Corporation. All rights reserved.
+  ~ Licensed under the MIT License.
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".component.activity.PersistentBottomSheetActivity">
+
+    <com.microsoft.fluentui.appbarlayout.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+<!--    <com.microsoft.fluentui.progress.ProgressBar-->
+<!--        android:id="@+id/progress_bar_linear_indeterminate_1"-->
+<!--        style="@style/Widget.FluentUI.LinearProgress.Indeterminate"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_weight="2"-->
+<!--        android:layout_margin="@dimen/linear_progress_margin"-->
+<!--        />-->
+    <ScrollView
+        android:id="@+id/scroll_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/app_bar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <WebView
+                android:id="@+id/webview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.microsoft.fluentui.persistentbottomsheet.PersistentBottomSheet
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/demo_persistent_sheet"
+        android:layout_alignParentBottom="true"
+        app:fluentui_peekHeight="@dimen/fluentui_persistent_bottom_sheet_peek_height"
+        app:fluentui_isDrawerHandleVisible="true"/>
+
+    <com.microsoft.fluentui.persistentbottomsheet.PersistentBottomSheet
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/default_persistent_sheet"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        app:fluentui_peekHeight="@dimen/fluentui_persistent_bottom_sheet_peek_height"
+        app:fluentui_itemsInRow="5"
+        app:fluentui_isDrawerHandleVisible="true"/>
+
+</RelativeLayout>

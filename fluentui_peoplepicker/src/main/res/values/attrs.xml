@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) Microsoft Corporation. All rights reserved.
+  ~ Licensed under the MIT License.
+  -->
+
+<resources>
+
+    <!-- *** Semantic Colors *** -->
+
+    <!--PeoplePicker-->
+    <attr name="fluentuiPeoplePickerBackgroundColor" format="reference|color"/>
+    <attr name="fluentuiPeoplePickerPopupBackgroundColor" format="reference|color"/>
+    <attr name="fluentuiPeoplePickerTextViewBackgroundColor" format="reference|color"/>
+    <attr name="fluentuiPeoplePickerTextViewDragBackgroundColor" format="reference|color"/>
+    <attr name="fluentuiPeoplePickerHintTextColor" format="reference|color"/>
+    <attr name="fluentuiPeoplePickerLabelTextColor" format="reference|color"/>
+    <attr name="fluentuiPeoplePickerCountSpanTextColor" format="reference|color"/>
+    <attr name="fluentuiPeoplePickerSearchTextDefaultColor" format="reference|color"/>
+    <attr name="fluentuiPeoplePickerSearchTextDisabledColor" format="reference|color"/>
+    <attr name="fluentuiPeoplePickerSearchTextPressedColor" format="reference|color"/>
+
+    <!--common fluentui_peoplepicker Module attributes-->
+    <attr name="fluentui_personaChipClickStyle" format="enum">
+        <enum name="none" value="0"/>
+        <enum name="delete" value="1"/>
+        <enum name="select" value="2"/>
+        <enum name="select_deselect" value="3"/>
+    </attr>
+
+
+</resources>

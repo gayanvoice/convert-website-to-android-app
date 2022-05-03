@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) Microsoft Corporation. All rights reserved.
+  ~ Licensed under the MIT License.
+  -->
+
+<resources>
+    <declare-styleable name="AvatarGroupView">
+        <attr name="fluentui_avatarGroupStyle"/>
+        <attr name="fluentui_maxDisplayedAvatars"/>
+        <attr name="fluentui_avatarSize"/>
+        <attr name="fluentui_avatarBorderStyle"/>
+    </declare-styleable>
+</resources>
